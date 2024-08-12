@@ -1,0 +1,79 @@
+/* Estilos globais */
+body {
+    font-size:1.5rem;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+  }
+  
+  /* Estilos do header */
+  header {
+      background-image: url('https://static.vecteezy.com/ti/vetor-gratis/t1/6699632-tecnologia-conexao-circuito-sistema-design-fundo-abstrato-gratis-vetor.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      color: black;
+      padding: 1rem 0;
+      margin-bottom: 20px; /* Aumenta a margem inferior do header */
+  }
+  
+  header .container {
+      width: 80%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  
+  header h1 {
+      margin: 0;
+  }
+  
+  nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+  }
+  
+  nav ul li {
+      margin-left: 100px;
+  }
+  
+  nav ul li a {
+      color: black;
+      text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+      text-decoration: underline;
+  }
+  
+  /* Estilos do conteúdo principal (main) */
+  main {
+      padding: 2rem 0;
+      margin: 20px 0; /* Aumenta as margens superior e inferior do main */
+  }
+  
+  main section {
+      margin: 1rem auto;
+      width: 100%;
+      max-width: 1500px;
+  }
+  
+  /* Estilos do footer */
+  footer {
+      background-image: url('https://static.vecteezy.com/ti/vetor-gratis/t1/6699632-tecnologia-conexao-circuito-sistema-design-fundo-abstrato-gratis-vetor.jpg');
+      text-align: center;
+      padding: 1rem 0;
+      position: flex;
+      bottom: 0;
+      width: 100%;
+      margin-top: 100px; /* Aumenta a margem superior do footer */
+  }
+  
+  footer img {
+      width: 100%;
+      margin: 1.0rem;
+  }
+  
